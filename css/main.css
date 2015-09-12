@@ -1,0 +1,166 @@
+/*Codigo css de primes*/
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.bg-dark{
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+.hero-image{
+	height: 100%;
+	background: url("../img/background/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header p{
+	display: inline-block;
+}
+.icon-primes{
+	font-size: 1.5em;
+}
+nav a{
+	color: white;
+	margin: 0% 1%;
+	text-decoration: none;
+	display: inline-block;
+}
+nav a:hover{
+	color: #0DC0C0;
+}
+.description{
+	padding: 15% 11% 0%;
+}
+.description h1{
+	font-size: 2.8em;
+}
+.description a{
+	color: white;
+	margin: 5% 1%;
+	display: inline-block;
+	background-color: rgba(255,255,255,0.1);	
+}
+.description a:hover{
+	background-color: #32383f;
+}
+section h3{
+	color:#32383f;
+}
+.icon{
+	color: #0DC0C0;
+	font-size: 300%;
+}
+.portafolio .btn{
+	display: inline-block;
+}
+.btn{
+	padding: 2%;
+	background-color: white;
+}
+.portafolio{
+	color: #555;
+}
+.portafolio  a{
+	text-decoration: none;
+	color: black;
+}
+.btn:hover{
+	background-color:  #0DC0C0;
+	color:white;
+}
+.portafolio img{
+	width: 100%;
+}
+.portafolio h5{
+	color: #384147;
+}
+.portafolio .background-white{
+	box-shadow: 0px 0px 5px #888; /* Sombra */
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+
+}
+.portafolio .background-white :hover{
+	border-radius: 0% 100%; /* Borde redondeado */
+	box-shadow: 0px 0px 5px #888; /* Sombra */
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	cursor:pointer;
+}
+.background-white{
+	background-color: white;
+}
+.btn-gray{
+	background-color: grey;
+	padding: 1%;
+	display: inline-block;
+}
+.btn-purchase{
+	padding: 2%;
+	background-color:  #32383f;
+	color: grey;
+	width: 50%;
+	margin-top: 5%;
+	display: inline-block;
+	margin: 5% auto;	
+}
+.bg-city{
+	background: url("../img/background/city.jpg") ;
+	height: 80%;
+	background-size: 120% ; 
+	position: relative;
+}
+.bg-city a{
+	margin: 5%;
+	text-decoration: none;
+	color: white;
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.2);
+	display: inline-block;
+	padding: 2%;
+	border:  1px solid gray ;
+}
+.bg-gray-dark{
+	background-color: #32383f;
+}
+.bg-sky-blue{
+	background-color: #0DC0C0;
+}
+.customer img{
+	border-radius: 100%;
+	width: 10%;
+}
+.bg-contact-us{
+	height: 100%;
+	background: url("../img/background/contactus.jpg");
+	background-size: 100% 125%; 
+	position: relative;
+}
+.for-nombre,
+.for-email,
+.for-mensaje{
+	width: 90%;
+	margin: 2% 0%;
+	padding: 2.5%;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-submit{
+	width: 20%;
+	background-color: #0dc0c0;
+	padding: 2.5%;
+	margin: 1%; 
+	display: inline-block;
+}
+.icon-follow{
+	font-size: 2em;
+	color: #32383f;
+}
+footer{
+	background-color: #32383f;
+	padding: 2%;
+}
+
+
