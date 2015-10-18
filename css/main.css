@@ -475,5 +475,6 @@ footer{
     right:4%;
     display:none;
     text-indent:-9999px;
-    background: url("../img/top.png") no-repeat;
+    background: url("../img/up.png") no-repeat;
+    background-size: cover;
 }
