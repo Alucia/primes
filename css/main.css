@@ -2,7 +2,56 @@
 body,html{
 	width: 100%;
 	height: 100%;
+	color: #ccc;
+	font-family: 'Open Sans', sans-serif;
 }
+a{
+	text-decoration: none;
+}
+a:active,
+a:hover,a:focus{
+	text-decoration: none;
+}
+/*header*/
+nav{
+	padding: 10px 5%;
+}
+.icon-bar{
+	background-color: #ffffff;
+}
+.nav-bar{
+	position: fixed;
+	padding-top: 2%;
+}
+.navbar-nav {
+	background-color: transparent;
+	padding-top: 10px;
+}
+.nav li a{
+	color: rgba(255, 255, 255, 0.8);
+	padding: 7px 5px;
+	margin: 0 15px;
+}
+.active{
+	background-color: #0ed2d2 !important;
+}
+.active li a{
+	color: 	white !important;
+}
+.nav>li>a:hover{
+	color: #ffffff;
+	/*transition:0.3s;*/
+	background-color: transparent;
+}
+.navbar-brand:hover{
+	opacity: 0.8;
+	transition:0.5s;
+	color: white;
+}
+.navbar-header a{
+	font-size: 1.6em;
+}
+/*hero-image*/
 .bg-dark{
 	height: 100%;
 	background-color: rgba(0,0,0,0.4);
@@ -13,21 +62,90 @@ body,html{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-/*menu desplegable*/
-.navbar .navbar-brand {
-  font-size: 35px;
-  color: #444;
+.phase{
+	margin-top: 22%;
+	padding: 0% 18%;
 }
-.navbar .navbar-toggle .icon-bar {
-  background: #444;
+.phase h1{
+	font-size: 3.5em;
+	font-weight: 300;
 }
-.navbar .navbar-right .separator {
-  margin-top: 12px;
-  margin-left: 5px;
+.phase .btn{
+	padding:15px 1.7%;
+	color: white;
+	font-size: 'Dosis',sans-serif;
+	display: inline-block;
+	font-size: 1.1em;
+	line-height: 1em;
+	margin-bottom: 9%;
 }
-footer{
-	background-color: #32383f;
-	padding: 2%;
+.right{
+	background-color: rgba(255, 255, 255, 0.2);
 }
-
-
+.btn-active{
+	background-color: #2d323a;
+	margin-right: 5%;
+}
+.phase .btn:hover{
+	background-color:  rgba(0, 0, 0, 0.6);
+	color: #0dc0c0;
+	transition: 0.8s; 
+}
+/*Features*/
+.feature{
+	padding: 4% 6% 8%;
+}
+.feature .row{
+	padding: 5% 6%;
+}
+.feature i{
+	color: #0DC0C0;
+	font-size: 50px;
+}
+.feature h2{
+	font-weight: 600;
+	color: #363c46;
+	font-size: 1.3em;
+}
+.feature p{
+	color: #98a0a8;
+	font-size: 0.95em;
+	padding: 0% 11%;
+}
+/*more features img*/
+.more-features{
+	background-color: #f4f4f4;
+	padding:2%;
+}
+.more-features h2{
+	font-size: 2em;
+	font-weight: 400;
+	padding: 2% 0;
+	color: #363c46;
+}
+.more-features img{
+	width: 75%;
+}
+/*more-features*/
+.more{
+    padding: 5% 7% 0;
+}
+.more i{
+	color: #0DC0C0;
+	font-size: 33px;
+	float: right;
+	display: flex;
+}
+.more .row{
+	padding-bottom: 4%;
+}
+.more h2{
+	font-size: 1em;
+	color: #363c46;
+	font-weight: 600;
+}
+.more p{
+	font-size: 0.8em;
+	color: #98a0a8;
+	font-weight: 600;
+}

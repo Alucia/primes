@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
 
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/elegant-fonts.css">
@@ -17,57 +17,163 @@
     <link rel="stylesheet" href="css/main.css"> 
   </head>
   <body>
-    <div class="hero-image w-100">
-      <div class="bg-dark">
-        <nav class="navbar">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Navegación</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Site name</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li>
-                  <a href="#">
-                    <i class="glyphicon glyphicon-home"></i>
-                    <span>Noticias</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="glyphicon glyphicon-home"></i>
-                    <span>Enlaces RSS</span>
-                  </a>
-                </li>
-                <li role="separator" class="divider"></li>
-                <li class="hidden-xs">
-                  <div class="search">
-                    <form class="navbar-form" role="search">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Ingresa tu búsqueda">
-                      </div>
-                      <button type="submit" class="btn btn-default">Buscar</button>
-                    </form>
-                  </div>              
-                </li>
-              </ul>
-            </div>
+    <header>
+      <nav id="" class="navbar navbar-fixed-top  w-100 ">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand text-white f-600" href="#"><i class="fa fa-star-half-o"></i>PRIMES</a>
           </div>
-        </nav>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#home" class="f-600">Home</a></li>
+              <li><a href="#feature" class="f-600 ">Features</a></li>
+              <li><a href="#portfolio" class="f-600">Portfolio</a></li>
+              <li><a href="#pricing" class="f-600">Pricing</a></li>
+              <li><a href="#contact" class="f-600">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-image bg-img-block" id="home">
+      <div class="bg-dark">
+        <div class="container-fluid">
+          <div class="row"></div>
+          <div class="phase text-white text-center">
+            <h1>
+              Launch Your <strong> Bussiness</strong>
+              with <strong>Primes</strong>
+            </h1>
+            <p class="pt-5 pb-5">
+              Vivamus commodo felis quis dui phatera, ac venenatis magna lacinia. Vestibulum quis dignissim nibh. Duis vitae felis orci.
+            </p>
+            <a href="#portfolio" class="btn btn-active">Our Portfolio</a>
+            <a href="#features" class="btn right">Learn More</a>
+          </div>
+        </div>
       </div>
-    </div> 
-    <footer class="text-center text-white font-dosis">
-      <div class="container">
-        <i class="fa fa-copyright ">primes 2015-laboratoria.la</i>
+    </section>
+    <section id="feature" class="feature text-center">
+      <div class="row">
+        <div class="col-xs-12  col-md-4">
+          <i class="ion-map"></i>
+          <h2>Lorem Ipsum</h2>
+          <p>Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.</p>
+        </div> 
+        <div class="col-xs-12  col-md-4">  
+          <i class="ion-paper-airplane"></i>
+          <h2>Lorem Ipsum</h2>
+          <p>Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.</p>
+        </div>
+        <div class="col-xs-12 col-md-4">  
+          <i class="ion-clipboard"></i>
+          <h2>Lorem Ipsum</h2>
+          <p>Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.</p>
+        </div>
+      </div>  
+      <div class="row">  
+        <div class="col-xs-12 col-md-4">
+          <i class="ion-earth"></i>
+          <h2>Lorem Ipsum</h2>
+          <p>Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.</p>
+        </div>
+        <div class="col-xs-12  col-md-4">
+          <i class="ion-flash-off"></i>
+          <h2>Lorem Ipsum</h2>
+          <p>Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.</p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <i class="ion-levels"></i>
+          <h2>Lorem Ipsum</h2>
+          <p>Ut lobortis auctor est, quis ornare orci tristique vel. Pellentesque sit amet ultricies nisl. Ut aliquet dolor mi, vitae varius felis elementum.</p>
+        </div>
       </div>
-    </footer>
+    </section>
+    <section class="more-features text-center">
+      <h2>More Features</h2>
+      <img src="img/laptop-features.png">
+    </section>
+    <section class="more">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 ">
+          <div class="media">
+           <div class="pull-left">
+             <i class=" ion-erlenmeyer-flask"></i>
+           </div>
+           <div class="media-body">
+            <h2 class="media-heading">Lorem Ipsum</h2>
+            <p>Nulla Fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris libero lacianiade mollis malesuade odio interdum. Integer sed magna vel velit dignissim luctus eu in uma.Dapibus egestas turpis.Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+            </div>
+          </div>  
+        </div> 
+        <div class="col-xs-12 col-sm-6">
+          <div class="media">
+           <div class="pull-left">
+             <i class="ion-ios-speedometer"></i>
+           </div>
+           <div class="media-body">
+            <h2 class="media-heading">Lorem Ipsum</h2>
+            <p>Nulla Fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris libero lacianiade mollis malesuade odio interdum. Integer sed magna vel velit dignissim luctus eu in uma.Dapibus egestas turpis.Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="media">
+           <div class="pull-left">
+             <i class="ion-android-boat"></i>
+           </div>
+           <div class="media-body">
+            <h2 class="media-heading">Lorem Ipsum</h2>
+            <p>Nulla Fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris libero lacianiade mollis malesuade odio interdum. Integer sed magna vel velit dignissim luctus eu in uma.Dapibus egestas turpis.Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+            </div>
+          </div>  
+        </div> 
+        <div class="col-xs-12 col-sm-6">
+          <div class="media">
+           <div class="pull-left">
+             <i class="ion-pie-graph"></i>
+           </div>
+           <div class="media-body">
+            <h2 class="media-heading">Lorem Ipsum</h2>
+            <p>Nulla Fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris libero lacianiade mollis malesuade odio interdum. Integer sed magna vel velit dignissim luctus eu in uma.Dapibus egestas turpis.Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="media">
+           <div class="pull-left">
+             <i class="ion-android-archive"></i>
+           </div>
+           <div class="media-body">
+            <h2 class="media-heading">Lorem Ipsum</h2>
+            <p>Nulla Fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris libero lacianiade mollis malesuade odio interdum. Integer sed magna vel velit dignissim luctus eu in uma.Dapibus egestas turpis.Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+            </div>
+          </div>  
+        </div> 
+        <div class="col-xs-12 col-sm-6">
+          <div class="media">
+           <div class="pull-left">
+             <i class="ion-trophy"></i>
+           </div>
+           <div class="media-body">
+            <h2 class="media-heading">Lorem Ipsum</h2>
+            <p>Nulla Fringilla dapibus nisieu accumsan arcu convallis tincidunt donec mauris libero lacianiade mollis malesuade odio interdum. Integer sed magna vel velit dignissim luctus eu in uma.Dapibus egestas turpis.Praesent faucibus nisl sit amet nulla sollicitudin.</p>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/common-scripts.js"></script>
   </body>
 </html>
