@@ -274,3 +274,64 @@ nav{
     border: 3px solid white;
     transition: 0.5s;
 }
+/*pricing*/
+.pricing{
+	background-color: #f4f4f4;
+	padding: 6% 7% 5%;
+}
+.pricing h2{
+	font-size: 2em;
+	font-weight: 400;
+	color: #363c46;
+}
+.pricing p{
+	padding: 1% 0 3%;
+}
+.box{
+	margin-top: 5%;
+    background-color: white;
+	padding: 9% 4%;
+	box-shadow: 0px 2px 2px #c9d1d6;	
+}
+.package{
+	background-color: #2d323a;
+	color: white;
+	font-size: 2em;
+	padding: 8%;
+}
+.premium{
+	background-color: #0DC0C0;
+}
+.cost{
+	background-color: #f0f0f0;
+	padding: 15% 2%;
+	color: #888888;
+	font-weight: 600;
+}
+.cost i{
+	font-size: 30px;
+	font-style: normal;
+}
+.pricing ul{
+	list-style: none;
+	padding: 10%;
+	color: #989898;
+}
+.pricing li{
+	border-bottom: 1px solid #c9d1d6;
+	padding: 5%;
+	font-weight: 600;
+}
+.pricing li a{
+	display: inline-block;
+	padding: 3% 10%;
+	color:  #afb4ba;
+	background-color: #2d323a;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+.pricing li a:hover{
+	background: rgba(0,0,0,0);
+ 	color: #2d323a;
+ 	border: 2px solid #2d323a;
+}
