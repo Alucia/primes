@@ -2,7 +2,7 @@
 body,html{
 	width: 100%;
 	height: 100%;
-	color: #ccc;
+	color: #333;
 	font-family: 'Open Sans', sans-serif;
 }
 a{
@@ -334,4 +334,20 @@ nav{
 	background: rgba(0,0,0,0);
  	color: #2d323a;
  	border: 2px solid #2d323a;
+}
+/*testimonials*/
+.testimonials img{
+	border-radius: 100%;
+	width: 10%;
+    display: inline-block;	
+}
+.testimonials h2{
+	font-weight: 400;
+	font-size: 2em;
+	padding: 5%;
+	color: #363c46;
+}
+.testimonials p{
+	line-height: 2;
+	padding: 0 19.5%;
 }
