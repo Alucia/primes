@@ -428,3 +428,51 @@ nav{
 	font-weight: 300;
 	padding: 1% 2% 2%;
 }
+/*follow us*/
+.follow-us{
+	padding: 5% 16% 7%;
+}
+.follow-us h2{
+	font-size: 2em;
+	font-weight: 400;
+}
+.follow-us p{
+	font-size: 1em;
+	padding: 3% 0 6%;
+	color: #828282;
+}
+.follow-us a{
+	display: inline-block;
+	padding: 0 0.6%;
+}
+.follow-us i:hover{
+	color: #0DC0C0;
+	transition: 0.4s;
+}
+.follow-us i{
+	font-size: 36px;
+	color: #444444;
+}
+/*footer*/
+footer{
+	background-color: #222222;
+	padding: 30px ;
+	color: #adadad;
+	font-size: 0.8em;
+}
+/*media queries*/
+@media (max-width:480px) {
+	.portfolio{
+		padding: 0 5%;
+	}
+}
+.scrollup{
+    width:65px;
+    height:40px;
+    opacity:0.9;
+    position:fixed;
+    bottom:3%;
+    right:4%;
+    /*display:none;*/
+    text-indent:-9999px;
+}
