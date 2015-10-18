@@ -197,7 +197,7 @@ nav{
 	font-weight: 600;
 	margin-bottom: 10px;
 }
-.portfolio a:hover{
+.portfolio .row a:last-child:hover{
 	background-color:#ffffff;
 	color: #2d323a;
 	border: 2px solid #2d323a;
@@ -237,7 +237,6 @@ nav{
     z-index: 1;
     height: 100%;
     width: 100%;
-    overflow: hidden;
     display: block;
     opacity: 0;
 }
