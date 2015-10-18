@@ -154,7 +154,7 @@ nav{
 /*portfolio*/
 .portfolio{
 	background-color: #f4f4f4;
-	padding: 0% 9% 5%;
+	padding: 0% 9%;
 }
 .portfolio h2{
     font-weight: 400;
@@ -266,12 +266,13 @@ nav{
 	display: inline-block;
 	color: white;
 	position: relative;
+	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .cta a:hover{
     background-color: #0DC0C0;
     color: white;
     padding: 1.2% 3%;
-    border: 3px solid white;
+    border: 3px solid #0DC0C9;
     transition: 0.5s;
 }
 /*pricing*/
@@ -350,4 +351,80 @@ nav{
 .testimonials p{
 	line-height: 2;
 	padding: 0 19.5%;
+}
+/*contact-us*/
+.contact-us{
+	background-image: url(../img/background/contactus.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 5%;
+}
+.contact-us .row{
+	position: relative;
+    padding: 10px 4%;
+}
+.contact-us h2{
+	padding: 0% 0% 1%;
+	font-weight: 400;
+	font-size: 2em;
+}
+.contact-us p{
+	font-size: 1em;
+	display: inline-block;
+}
+.contact-us .col-6{
+	padding: 2% 0 0 9%;
+}
+.contact-us h3{
+	font-weight: 400;
+	font-size: 1.3em;
+	padding-bottom: 4%;
+}
+.contact-us .textinput{
+	width: 100%;
+	padding: 3% 2%;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: none;
+	margin-bottom: 4%;
+	font-size: 0.9em;
+}
+.contact-us .textblock{
+	width: 100%;
+	height: 158px;
+	padding: 3% 2%;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: none;
+	margin-bottom: 4%;
+	font-size: 0.9em;
+}
+.submit-btn{
+	background-color:#0dc0c0;
+	padding: 2.5% 6%;
+	border:none;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 1em;
+	margin-bottom: 5%;
+}
+.submit-btn:hover{
+	background-color: white;
+    color: #0DC0C0;
+    transition: 0.5s;
+    border: 2px solid #0DC0C0;
+}
+.about-us p{
+	font-size: 0.9em;
+    line-height: 1.8;
+    padding: 3% 3% 5% 0;
+}
+.contact-us i{
+	display: inline-block;
+	font-size: 20px;
+}
+.contact-us h4{
+	display: inline-block;
+	font-size: 0.9em;
+	font-weight: 300;
+	padding: 1% 2% 2%;
 }
